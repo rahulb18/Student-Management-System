@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div id="navbar">
+        <div id="info"></div>
+        <div id="dashboard">
+            <a href="dashboard.html"><h2>Dashboard</h2></a>
+        </div>
+    </div>
+    <div id="container">
+        <div class="heading"><h3>Student Management System</h3></div>
+        <div id="formdiv">
+            <form action="" id="studentData" onsubmit="storeData()">
+                <h4>Name</h4>
+                <input id="name"  type="text">
+                <h4>Course</h4>
+                <input id="course" type="text">
+                <h4>Unit</h4>
+                <input id="unit" type="number">
+                <h4>Image</h4>
+                <input id="image" type="url">
+                <h4>Batch</h4>
+                <input id="batch" type="number">
+                <input id="butt" type="submit">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+<script src="index.js"></script>
